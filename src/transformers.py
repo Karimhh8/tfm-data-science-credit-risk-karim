@@ -15,7 +15,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 
 class CLTVTransformer(BaseEstimator, TransformerMixin):
     """
-    Construye la variable CLTV (Combined Loan-to-Value) como ratio financiero:
+    Variable CLTV (Combined Loan-to-Value) como ratio financiero:
 
         CLTV = (LOAN + MORTDUE) / VALUE
 

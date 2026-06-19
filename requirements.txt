@@ -1,0 +1,33 @@
+# TFM Application Scoring PD - dependencias 
+# Entorno reproducible. Instalar con: pip install -r requirements.txt
+
+# Manejo de datos
+pandas==2.3.1
+numpy==2.3.1
+scipy==1.15.3
+
+# Visualizacion
+matplotlib==3.10.8
+seaborn==0.13.2
+missingno==0.5.2
+
+# Machine Learning
+scikit-learn==1.7.2
+lightgbm==4.6.0
+xgboost==3.1.2
+
+# Modelo estadistico (GLM de la regresion logistica)
+statsmodels==0.14.5
+
+# Credit scoring: binning optimo, WoE, IV
+optbinning==0.20.0
+scorecardpy==0.1.9.7
+
+# Explicabilidad
+shap==0.52.0
+
+# Persistencia de modelos
+joblib==1.5.2
+
+# Lectura/escritura de Excel
+openpyxl==3.1.5
